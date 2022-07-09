@@ -20,5 +20,5 @@ function result()
     return count
 end
 
-print(@style result() red bold)
+println(@style result() red bold)
 @time result()
